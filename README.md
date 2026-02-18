@@ -80,8 +80,6 @@ The project uses the classic **Forest Cover Type dataset**, containing cartograp
 ## 2️⃣ Feature Engineering
 
 Engineered features:
-
-```python
 Hydrology_Dist_Sum
 Hydrology_Dist_Diff
 Road_Fire_Dist_Sum
