@@ -100,7 +100,7 @@ Hydrological proximity
 
 Human disturbance impact
 
-3️⃣ Data Splitting & Imbalance Handling
+## 3️⃣ Data Splitting & Imbalance Handling
 Stratified 80/20 train-test split
 
 Converted labels to 0-based for LightGBM
@@ -109,7 +109,7 @@ Used native categorical handling for wilderness area
 
 Applied class_weight="balanced"
 
-4️⃣ Baseline LightGBM
+## 4️⃣ Baseline LightGBM
 Multiclass objective
 
 Early stopping
@@ -118,7 +118,7 @@ Early stopping
 
 Evaluated using macro F1
 
-5️⃣ Hyperparameter Tuning
+## 5️⃣ Hyperparameter Tuning
 Parameters tuned:
 
 num_leaves
